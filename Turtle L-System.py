@@ -104,7 +104,6 @@ def main():
             rules_list = rules_list + new_rule 
 
     instructions = createLSystem(iterations,axiom,rules_list)
-    print(instructions)
 
     tim = turtle.Turtle()
     tim.hideturtle()
