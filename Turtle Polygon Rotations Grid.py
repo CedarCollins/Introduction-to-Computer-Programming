@@ -1,3 +1,16 @@
+"""
+Sample Input:
+
+Enter rotational copies: 5
+Enter sides per polygon: 4
+Enter edge pixel length: 100
+Enter row range start: -200
+Enter row range end: 200
+Enter row range increment: 400
+Enter col range start: -250
+Enter col range end: 250
+Enter col range increment: 250
+"""
 import turtle
 import random
 
