@@ -1,3 +1,10 @@
+"""
+Sample Inputs:
+
+Enter (^madlib^): Hey diddle diddle, the (^noun^) and the fiddle, The (^noun^) (^past-tense verb^) over the moon, The (^adjective^) (^noun^) (^past-tense verb^) to see such fun, And the (^noun^) (^past-tense verb^) away with the spoon!
+
+Enter (^madlib^): (^Proper Name^) is (^adjective^) whenever (^phrase^). This ^)example(^ has typos.
+"""
 def main():
     str_empty = str(input("Enter (^madlib^): "))
     str_new = ""
