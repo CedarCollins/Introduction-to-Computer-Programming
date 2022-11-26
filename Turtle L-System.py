@@ -1,3 +1,27 @@
+"""
+Sample Inputs:
+
+Enter iterations: 4
+Enter length: 10
+Enter angle: 60
+Enter axiom: >>>>FXF--FF--FF
+Enter new rule 'LHS -> RHS' (empty line to exit): X -> --FXF++FXF++FXF--
+Enter new rule 'LHS -> RHS' (empty line to exit): F -> FF
+
+Enter iterations: 3
+Enter length: 16
+Enter angle: 60
+Enter axiom: >>>>>>>FX
+Enter new rule 'LHS -> RHS' (empty line to exit): X -> X+YF++YF-FX--FXFX-YF+
+Enter new rule 'LHS -> RHS' (empty line to exit): Y -> -FX+YFYF++YF+FX--FX-Y
+
+Enter iterations: 6
+Enter length: 3
+Enter angle: 11.25
+Enter axiom: --------X
+Enter new rule 'LHS -> RHS' (empty line to exit): X -> F[---X]F[++X]-X
+Enter new rule 'LHS -> RHS' (empty line to exit): F -> >>FF<<
+"""
 import turtle
 
 def createLSystem(iterations,axiom,rules):
@@ -54,6 +78,17 @@ def drawLsystem(t,instructions,angle,length):
             pass
 
 def main():
+    print("""Symbols: 'F'=MoveForward, 
+         'B'=MoveBackward, 
+         '+'=TurnRight, 
+         '-'=TurnLeft, 
+         '>'=PenWider, 
+         '<'=PenNarrower, 
+         '['=StateSave, 
+         ']'=StateRestore,
+         'ACDEGHIJKLMNOPQRSTUVWXYZ'=TurtleIgnores
+          """)
+    
     iterations = int(input("Enter iterations: "))
     length = float(input("Enter length: "))
     angle = float(input("Enter angle: "))
