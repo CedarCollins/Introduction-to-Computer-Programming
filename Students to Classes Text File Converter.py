@@ -2,6 +2,8 @@
 Please keep a text file (students.txt) in the same directory location as the python file in the following format:
 
     <Student>: <Class 1> <Class 2> ... <Class n>
+
+Note: you can add as many students and classes as you like (they can overlap too); just put each student on a new line.
 """
 
 def dictionary(classes):
