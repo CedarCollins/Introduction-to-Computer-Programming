@@ -1,3 +1,12 @@
+"""
+Sample Inputs:
+
+Enter int angle: 59
+Enter int range: 100
+
+Enter int angle: 60
+Enter int range: 200
+"""
 str_angle=input("Enter int angle: ")
 int_angle=int(str_angle)
 
