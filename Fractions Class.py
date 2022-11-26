@@ -57,11 +57,6 @@ class MixedFraction(Fraction):
     
 def main():
     
-    print("*" * 30 + "\nPrinting main() source code:\n" + "*" * 30)
-    import inspect
-    print(str(inspect.getsource(main)))
-    print("*" * 30 + "\nPrinting main() source output:\n" + "*" * 30)
-    
     f1 = Fraction(1, 2)
     f2 = Fraction(-7, 3)
     f3 = Fraction(-1, 4)
