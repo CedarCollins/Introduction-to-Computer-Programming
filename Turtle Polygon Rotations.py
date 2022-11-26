@@ -1,3 +1,26 @@
+"""
+Sample inputs:
+
+Enter rotational copies: 5
+Enter sides per polygon: 4
+Enter edge pixel length: 200
+
+Enter rotational copies: 5
+Enter sides per polygon: 5
+Enter edge pixel length: 200
+
+Enter rotational copies: 8
+Enter sides per polygon: 6
+Enter edge pixel length: 150
+
+Enter rotational copies: 12
+Enter sides per polygon: 8
+Enter edge pixel length: 120
+
+Enter rotational copies: 8
+Enter sides per polygon: 3
+Enter edge pixel length: 300
+"""
 import turtle
 import random
 
